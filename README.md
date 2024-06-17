@@ -18,3 +18,24 @@ the lowest possible number of actions. To succeed you’ll have to manipulate va
 - rra (reverse rotate a): Shift down all elements of stack a by 1.
 - rrb (reverse rotate b): Shift down all elements of stack b by 1.
 - rrr : rra and rrb at the same time.
+
+### Use:
+- step 1:
+```
+make
+```
+- step 2: in terminal run the executable with numbers you want to sort
+```
+./push_swap 2 1 3 6 5 8
+```
+- step 3: the output will look like this
+```
+sa
+pb
+pb
+pb
+sa
+pa
+pa
+pa
+```
